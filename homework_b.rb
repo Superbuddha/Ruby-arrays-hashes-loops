@@ -61,5 +61,6 @@ p users ["Erik"][:lottery_numbers].min
 
 list = []
 for num in users ["Avril"][:lotery_numbers]
-
-  p list
+list.push num if num.even?
+end
+p list
